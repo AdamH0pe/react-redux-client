@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Provider from 'react-redux';
+import { Provider } from 'react-redux';
 
-
-import Container from './components/container';
-
-const store = {};
+import store from './store';
+import Index from './components/index';
 
 ReactDOM.render(
     <Provider store={store}>
-       <Container />
+       <Index />
     </Provider>
     ,
     document.getElementById('app')
