@@ -4,7 +4,7 @@ export default class Container extends React.Component {
 
     render(){
         return  <section>
-                    {this.props.children}
+                    { this.props.children }
                 </section>;
     }
 }
