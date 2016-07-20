@@ -4,4 +4,4 @@ export function changeMessage(str) {
         type: 'DEFAULT',
         message: str
     }
-} 
+}
